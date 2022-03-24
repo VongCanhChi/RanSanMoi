@@ -79,7 +79,7 @@ public class GameScreen extends JPanel implements Runnable {
     public void paintBg(Graphics g) {
 
         try {
-            image = ImageIO.read(new File("res/item.png"));
+            image = ImageIO.read(new File("src/res/item.png"));
         } catch (Exception e) {
             System.out.println("No image to load.");
         }

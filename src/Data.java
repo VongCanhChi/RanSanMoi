@@ -27,15 +27,15 @@ public class Data {
             // sprite = ImageIO.read(new File("res/headDown.png"));
 
             // imageHead = sprite.getSubimage(0, 0, 30, 30);
-            imageHead = ImageIO.read(new File("res/head.png"));
-            imageHeadLeft = ImageIO.read(new File("res/headLeft.png"));
-            imageHeadRight = ImageIO.read(new File("res/headRight.png"));
-            imageHeadUp = ImageIO.read(new File("res/headUp.png"));
-            imageHeadDown = ImageIO.read(new File("res/headDown.png"));
-            imageGameOver = ImageIO.read(new File("res/gameOver.PNG"));
-            imageBackground = ImageIO.read(new File("res/background.jpg"));
+            imageHead = ImageIO.read(new File("src/res/head.png"));
+            imageHeadLeft = ImageIO.read(new File("src/res/headLeft.png"));
+            imageHeadRight = ImageIO.read(new File("src/res/headRight.png"));
+            imageHeadUp = ImageIO.read(new File("src/res/headUp.png"));
+            imageHeadDown = ImageIO.read(new File("src/res/headDown.png"));
+            imageGameOver = ImageIO.read(new File("src/res/gameOver.PNG"));
+            imageBackground = ImageIO.read(new File("src/res/background.jpg"));
 
-            imageBody = ImageIO.read(new File("res/body.png"));
+            imageBody = ImageIO.read(new File("src/res/body.png"));
         } catch (Exception e) {
             // TODO: handle exception
         }

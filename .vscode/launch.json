@@ -32,10 +32,52 @@
         },
         {
             "type": "java",
-            "name": "Launch FrameScreen",
+            "name": "FrameScreen",
             "request": "launch",
             "mainClass": "FrameScreen",
             "projectName": "RanSanMoi_a9928f12"
+        },
+        {
+            "type": "java",
+            "name": "GameScreen",
+            "request": "launch",
+            "mainClass": "GameScreen",
+            "projectName": "RanSanMoi_a9928f12"
+        },
+        {
+            "type": "java",
+            "name": "Snake",
+            "request": "launch",
+            "mainClass": "Snake",
+            "projectName": "RanSanMoi_a9928f12"
+        },
+        {
+            "type": "java",
+            "name": "Data",
+            "request": "launch",
+            "mainClass": "Data",
+            "projectName": "RanSanMoi_a9928f12"
+        },
+        {
+            "type": "java",
+            "name": "Animation",
+            "request": "launch",
+            "mainClass": "Animation",
+            "projectName": "RanSanMoi_a9928f12"
+        },
+        {
+            "type": "java",
+            "name": "User",
+            "request": "launch",
+            "mainClass": "User",
+            "projectName": "RanSanMoi_a9928f12"
         }
-    ]
+    ],
+
+    "compounds" : [
+        {
+            "name" : "SnakeApp",
+            "configurations" : ["FrameScreen", "GameScreen", "Data", "User", "Snake", "Animation"]
+        }
+    ] 
 }

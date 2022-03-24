@@ -45,23 +45,23 @@ public class FrameScreen extends JFrame {
 
             if (GameScreen.isPressCondition) {
                 switch (keyPress) {
-                case KeyEvent.VK_UP:
-                    gameScreen.snake.setVector(Snake.GO_UP);
-                    break;
-                case KeyEvent.VK_DOWN:
-                    gameScreen.snake.setVector(Snake.GO_DOWN);
-                    break;
-                case KeyEvent.VK_LEFT:
-                    gameScreen.snake.setVector(Snake.GO_LEFT);
-                    break;
-                case KeyEvent.VK_RIGHT:
-                    gameScreen.snake.setVector(Snake.GO_RIGHT);
-                    break;
-                case KeyEvent.VK_SPACE:
-                    GameScreen.isPlaying = true;
-                    break;
-                default:
-                    System.out.println("Notthing is pressed.");
+                    case KeyEvent.VK_UP:
+                        gameScreen.snake.setVector(Snake.GO_UP);
+                        break;
+                    case KeyEvent.VK_DOWN:
+                        gameScreen.snake.setVector(Snake.GO_DOWN);
+                        break;
+                    case KeyEvent.VK_LEFT:
+                        gameScreen.snake.setVector(Snake.GO_LEFT);
+                        break;
+                    case KeyEvent.VK_RIGHT:
+                        gameScreen.snake.setVector(Snake.GO_RIGHT);
+                        break;
+                    case KeyEvent.VK_SPACE:
+                        GameScreen.isPlaying = true;
+                        break;
+                    default:
+                        System.out.println("Notthing is pressed.");
                 }
             }
 
@@ -81,7 +81,7 @@ public class FrameScreen extends JFrame {
 
     public static void readData() {
         try {
-            FileReader fr = new FileReader("res/userData.txt");
+            FileReader fr = new FileReader("src/res/userData.txt");
             BufferedReader br = new BufferedReader(fr);
 
             String line = null;
